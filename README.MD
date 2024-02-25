@@ -16,7 +16,9 @@
 
 3. **school-management.infra:** Responsável pela persistência de dados. Também pode ser utilizada para adicionar serviços externos da aplicação, como mensageria e gateways.
 
-4. **school-management.aPI:** Camada web da aplicação, responsável por resolver as dependências da aplicação.
+4. **school-management.api:** Camada web da aplicação, responsável por resolver as dependências da aplicação.
+
+4. **school-management.shared:** Camada responsável por armazenamento de dados que serão utilizados em outras camadas.
 
 ### Padrões e Arquitetura
 
