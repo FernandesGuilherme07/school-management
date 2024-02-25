@@ -2,8 +2,7 @@
   "dependencies": {
     "mssql1": {
       "type": "mssql",
-      "connectionId": "ConnectionStrings:AZURE_SQL_CONNECTIONSTRING",
-      "dynamicId": null
+      "connectionId": "ConnectionStrings:AZURE_SQL_CONNECTIONSTRING"
     }
   }
 }

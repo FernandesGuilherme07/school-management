@@ -17,7 +17,7 @@ namespace school_management.shared.view_models
 
             if (schoolSubjects.Count > 0)
             {
-                schoolSubjects.ToList().ForEach(data => schoolSubjectsList.Add(new SchoolSubjectViewModel(data.Id, data.Name, data.Description)));
+                schoolSubjects.ToList().ForEach(data => schoolSubjectsList.Add(new SchoolSubjectViewModel(data.Id, data.Name, data.Description, null)));
             }
 
              Id = id;

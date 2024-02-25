@@ -32,7 +32,7 @@ namespace school_management.infrastructure.repository
         public async Task<IList<SchoolSubjectViewModel>> GetAllSchoolSubjectsAsync()
         {
             var schoolSubjects = await _context.SchoolSubjects
-                .Select(s => new SchoolSubjectViewModel(s.Id, s.Name, s.Description))
+                .Select(s => new SchoolSubjectViewModel(s.Id, s.Name, s.Description, null))
                 .ToListAsync();
 
             return schoolSubjects;
@@ -42,7 +42,7 @@ namespace school_management.infrastructure.repository
         {
             var schoolSubject = await _context.SchoolSubjects
                 .Where(s => s.Id == id)
-                .Select(s => new SchoolSubjectViewModel(s.Id, s.Name, s.Description))
+                .Select(s => new SchoolSubjectViewModel(s.Id, s.Name, s.Description, s.Students))
                 .FirstOrDefaultAsync();
 
             return schoolSubject;
@@ -52,7 +52,7 @@ namespace school_management.infrastructure.repository
         {
             var schoolSubject = await _context.SchoolSubjects
                 .Where(s => s.Name == name)
-                .Select(s => new SchoolSubjectViewModel(s.Id, s.Name, s.Description))
+                .Select(s => new SchoolSubjectViewModel(s.Id, s.Name, s.Description, null))
                 .FirstOrDefaultAsync();
 
             return schoolSubject;

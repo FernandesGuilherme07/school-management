@@ -15,6 +15,11 @@ namespace school_management.Application.use_cases
                 return new ApplicationViewModel("school subject id already exists", false, null, null);
             }
 
+            if(schoolSubjectIdAlreadyExists.Students != null)
+            {
+                return new ApplicationViewModel("It is not possible to delete a subject that contains enrolled students", false, null, null);
+            }
+
             await _schoolSubjectRepository.DeletestudentAsync(Id);
 
             return new ApplicationViewModel("school subject successfully deleted", true, null, null);
