@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "school-management.domain", "school-management.domain\school-management.domain.csproj", "{C71D95F7-3A43-4334-ACED-5A9E247344B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "school-management.domain", "school-management.domain\school-management.domain.csproj", "{C71D95F7-3A43-4334-ACED-5A9E247344B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "school-management.application", "school-management.Application\school-management.application.csproj", "{447D583F-87AC-4C30-9273-29A1A8FF9E77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "school-management.application", "school-management.Application\school-management.application.csproj", "{447D583F-87AC-4C30-9273-29A1A8FF9E77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "school-management.infrastructure", "school-management.infrastructure\school-management.infrastructure.csproj", "{8A72EA87-0229-4771-B22C-E297AAFF5233}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "school-management.infrastructure", "school-management.infrastructure\school-management.infrastructure.csproj", "{8A72EA87-0229-4771-B22C-E297AAFF5233}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "school-management.api", "school-management.api\school-management.api.csproj", "{B5417B53-6283-44C8-958A-C96C95696099}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "school-management.api", "school-management.api\school-management.api.csproj", "{B5417B53-6283-44C8-958A-C96C95696099}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "school-management.shared", "school-management.shared\school-management.shared.csproj", "{37FF8710-FD77-4EE7-869F-B68ADF6745EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B5417B53-6283-44C8-958A-C96C95696099}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5417B53-6283-44C8-958A-C96C95696099}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5417B53-6283-44C8-958A-C96C95696099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37FF8710-FD77-4EE7-869F-B68ADF6745EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37FF8710-FD77-4EE7-869F-B68ADF6745EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37FF8710-FD77-4EE7-869F-B68ADF6745EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37FF8710-FD77-4EE7-869F-B68ADF6745EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

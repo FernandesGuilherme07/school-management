@@ -1,17 +1,201 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\Solution1\\school-management.api\\school-management.api.csproj": {}
+    "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.api\\school-management.api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\Solution1\\school-management.api\\school-management.api.csproj": {
+    "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.api\\school-management.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\Solution1\\school-management.api\\school-management.api.csproj",
+        "projectUniqueName": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.api\\school-management.api.csproj",
         "projectName": "school-management.api",
-        "projectPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\Solution1\\school-management.api\\school-management.api.csproj",
+        "projectPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.api\\school-management.api.csproj",
         "packagesPath": "C:\\Users\\Mult-e\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\Solution1\\school-management.api\\obj\\",
+        "outputPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mult-e\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.Application\\school-management.application.csproj": {
+                "projectPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.Application\\school-management.application.csproj"
+              },
+              "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.infrastructure\\school-management.infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.infrastructure\\school-management.infrastructure.csproj"
+              },
+              "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.shared\\school-management.shared.csproj": {
+                "projectPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.shared\\school-management.shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.Application\\school-management.application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.Application\\school-management.application.csproj",
+        "projectName": "school-management.application",
+        "projectPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.Application\\school-management.application.csproj",
+        "packagesPath": "C:\\Users\\Mult-e\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mult-e\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.domain\\school-management.domain.csproj": {
+                "projectPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.domain\\school-management.domain.csproj"
+              },
+              "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.shared\\school-management.shared.csproj": {
+                "projectPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.shared\\school-management.shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.domain\\school-management.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.domain\\school-management.domain.csproj",
+        "projectName": "school-management.domain",
+        "projectPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.domain\\school-management.domain.csproj",
+        "packagesPath": "C:\\Users\\Mult-e\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,14 +228,101 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.infrastructure\\school-management.infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.infrastructure\\school-management.infrastructure.csproj",
+        "projectName": "school-management.infrastructure",
+        "projectPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.infrastructure\\school-management.infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Mult-e\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mult-e\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.Application\\school-management.application.csproj": {
+                "projectPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.Application\\school-management.application.csproj"
+              },
+              "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.shared\\school-management.shared.csproj": {
+                "projectPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.shared\\school-management.shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[1.19.5, )"
+              "version": "[8.0.2, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -66,14 +337,75 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.shared\\school-management.shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.shared\\school-management.shared.csproj",
+        "projectName": "school-management.shared",
+        "projectPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.shared\\school-management.shared.csproj",
+        "packagesPath": "C:\\Users\\Mult-e\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mult-e\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.domain\\school-management.domain.csproj": {
+                "projectPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.domain\\school-management.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

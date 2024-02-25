@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "school-management.shared/1.0.0": {
+        "dependencies": {
+          "school-management.domain": "1.0.0"
+        },
+        "runtime": {
+          "school-management.shared.dll": {}
+        }
+      },
+      "school-management.domain/1.0.0": {
+        "runtime": {
+          "school-management.domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "school-management.shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "school-management.domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

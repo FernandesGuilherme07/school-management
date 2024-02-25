@@ -1,0 +1,12 @@
+C:\Users\Mult-e\Documents\projects\school-management\school-management.domain\bin\Release\net8.0\school-management.domain.deps.json
+C:\Users\Mult-e\Documents\projects\school-management\school-management.domain\bin\Release\net8.0\school-management.domain.dll
+C:\Users\Mult-e\Documents\projects\school-management\school-management.domain\bin\Release\net8.0\school-management.domain.pdb
+C:\Users\Mult-e\Documents\projects\school-management\school-management.domain\obj\Release\net8.0\school-management.domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mult-e\Documents\projects\school-management\school-management.domain\obj\Release\net8.0\school-management.domain.AssemblyInfoInputs.cache
+C:\Users\Mult-e\Documents\projects\school-management\school-management.domain\obj\Release\net8.0\school-management.domain.AssemblyInfo.cs
+C:\Users\Mult-e\Documents\projects\school-management\school-management.domain\obj\Release\net8.0\school-management.domain.csproj.CoreCompileInputs.cache
+C:\Users\Mult-e\Documents\projects\school-management\school-management.domain\obj\Release\net8.0\school-management.domain.sourcelink.json
+C:\Users\Mult-e\Documents\projects\school-management\school-management.domain\obj\Release\net8.0\school-management.domain.dll
+C:\Users\Mult-e\Documents\projects\school-management\school-management.domain\obj\Release\net8.0\refint\school-management.domain.dll
+C:\Users\Mult-e\Documents\projects\school-management\school-management.domain\obj\Release\net8.0\school-management.domain.pdb
+C:\Users\Mult-e\Documents\projects\school-management\school-management.domain\obj\Release\net8.0\ref\school-management.domain.dll

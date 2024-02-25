@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CgZZK9AcTBgKLTVPfFCu4qa69+cf5xs7sJubi7uUmKFjqvN5gm/xggCgFPiUNNf7f1UgC4NsGwExtzRnLsDAKw==",
+  "dgSpecHash": "jtNveAHNrqz4VJd3Dnq6JwvSeCRLVJTfWnk/0euvPFiacCij05Qn1BpOsy9YCj+EYDZmjvoTDVauztLE20CpZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\Solution1\\school-management.Application\\school-management.application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.Application\\school-management.application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mult-e\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

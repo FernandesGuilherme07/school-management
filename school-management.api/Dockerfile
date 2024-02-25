@@ -10,6 +10,10 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["school-management.api/school-management.api.csproj", "school-management.api/"]
+COPY ["school-management.Application/school-management.application.csproj", "school-management.Application/"]
+COPY ["school-management.domain/school-management.domain.csproj", "school-management.domain/"]
+COPY ["school-management.shared/school-management.shared.csproj", "school-management.shared/"]
+COPY ["school-management.infrastructure/school-management.infrastructure.csproj", "school-management.infrastructure/"]
 RUN dotnet restore "./school-management.api/./school-management.api.csproj"
 COPY . .
 WORKDIR "/src/school-management.api"

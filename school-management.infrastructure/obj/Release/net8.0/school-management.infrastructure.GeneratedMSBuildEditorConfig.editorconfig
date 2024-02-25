@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = school_management.infrastructure
-build_property.ProjectDir = C:\Users\Mult-e\Documents\projects\school-management\Solution1\school-management.infrastructure\
+build_property.ProjectDir = C:\Users\Mult-e\Documents\projects\school-management\school-management.infrastructure\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

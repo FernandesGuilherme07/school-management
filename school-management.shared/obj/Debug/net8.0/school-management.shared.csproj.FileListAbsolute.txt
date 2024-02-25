@@ -1,0 +1,16 @@
+C:\Users\Mult-e\Documents\projects\school-management\school-management.shared\obj\Debug\net8.0\school-management.shared.csproj.AssemblyReference.cache
+C:\Users\Mult-e\Documents\projects\school-management\school-management.shared\obj\Debug\net8.0\school-management.shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mult-e\Documents\projects\school-management\school-management.shared\obj\Debug\net8.0\school-management.shared.AssemblyInfoInputs.cache
+C:\Users\Mult-e\Documents\projects\school-management\school-management.shared\obj\Debug\net8.0\school-management.shared.AssemblyInfo.cs
+C:\Users\Mult-e\Documents\projects\school-management\school-management.shared\obj\Debug\net8.0\school-management.shared.csproj.CoreCompileInputs.cache
+C:\Users\Mult-e\Documents\projects\school-management\school-management.shared\obj\Debug\net8.0\school-management.shared.sourcelink.json
+C:\Users\Mult-e\Documents\projects\school-management\school-management.shared\bin\Debug\net8.0\school-management.shared.deps.json
+C:\Users\Mult-e\Documents\projects\school-management\school-management.shared\bin\Debug\net8.0\school-management.shared.dll
+C:\Users\Mult-e\Documents\projects\school-management\school-management.shared\bin\Debug\net8.0\school-management.shared.pdb
+C:\Users\Mult-e\Documents\projects\school-management\school-management.shared\bin\Debug\net8.0\school-management.domain.dll
+C:\Users\Mult-e\Documents\projects\school-management\school-management.shared\bin\Debug\net8.0\school-management.domain.pdb
+C:\Users\Mult-e\Documents\projects\school-management\school-management.shared\obj\Debug\net8.0\school-management.shared.dll
+C:\Users\Mult-e\Documents\projects\school-management\school-management.shared\obj\Debug\net8.0\refint\school-management.shared.dll
+C:\Users\Mult-e\Documents\projects\school-management\school-management.shared\obj\Debug\net8.0\school-management.shared.pdb
+C:\Users\Mult-e\Documents\projects\school-management\school-management.shared\obj\Debug\net8.0\ref\school-management.shared.dll
+C:\Users\Mult-e\Documents\projects\school-management\school-management.shared\obj\Debug\net8.0\school-management.shared.csproj.CopyComplete

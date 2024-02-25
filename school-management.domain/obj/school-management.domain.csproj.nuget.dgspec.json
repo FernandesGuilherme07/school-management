@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\Solution1\\school-management.domain\\school-management.domain.csproj": {}
+    "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.domain\\school-management.domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\Solution1\\school-management.domain\\school-management.domain.csproj": {
+    "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.domain\\school-management.domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\Solution1\\school-management.domain\\school-management.domain.csproj",
+        "projectUniqueName": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.domain\\school-management.domain.csproj",
         "projectName": "school-management.domain",
-        "projectPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\Solution1\\school-management.domain\\school-management.domain.csproj",
+        "projectPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.domain\\school-management.domain.csproj",
         "packagesPath": "C:\\Users\\Mult-e\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\Solution1\\school-management.domain\\obj\\",
+        "outputPath": "C:\\Users\\Mult-e\\Documents\\projects\\school-management\\school-management.domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
