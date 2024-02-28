@@ -15,7 +15,7 @@ namespace school_management.Application.use_cases
                 return new ApplicationViewModel("school subject id already exists", false, null, null);
             }
 
-            if(schoolSubjectIdAlreadyExists.Students != null)
+            if(schoolSubjectIdAlreadyExists.Students.Count > 0)
             {
                 return new ApplicationViewModel("It is not possible to delete a subject that contains enrolled students", false, null, null);
             }
